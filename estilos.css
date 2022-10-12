@@ -1,0 +1,146 @@
+body {
+    font-family: 'Arima Madurai', cursive;
+
+    font-family: 'Mulish', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background:rgb(196, 230, 219);
+    justify-content: space-between;
+    align-items: center;
+}
+header {
+    width: 100%;
+    color: rgb(104, 192, 207);
+    min-width: 40px;
+    height: 150px;
+    background-color: rgb(106, 202, 181);
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+    right: auto;
+    background-image: linear-gradient(to top, rgba(127, 240, 224, 0.502) 0%, rgba(242, 183, 225, 0.56) 100%) ,url(..jpg/imag/1_nadador-.jpg);
+
+
+    
+}
+#btn-menu {
+    display: none;
+}
+header label {
+    display: none
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+
+}
+header label :hover {
+    cursor: pointer;
+    background: rgba (0,0,0,0.3);
+ 
+}
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu li a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.menu li{
+    flex-grow: 1;
+}
+.menu li{
+    border-right:  1px solid #fff;
+}
+
+.menu li :hover{
+    background: rgba(0,0,0, 0.3);
+}
+    
+    .menu {
+        position: absolute;
+        background:#fff ;   
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.5s;
+ }
+    .menu ul {
+        flex-direction: column;
+    }
+    .menu li{
+        border-top: 1px solid #fff;
+    }
+    #btn-menu:checked -.menu{
+
+        margin: 0;
+    }
+}
+
+a.logo { justify-content: left;
+
+    display: flex;
+    margin-right: 0px;
+ 
+    
+    
+}
+.logo img{
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    margin-right: 10px;
+
+
+}
+
+    
+
+h2,h1{ 
+    
+    font-size: 20px;
+    color: black;
+    text-align: center ;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-weight: 600;
+
+    
+}
+nav :hover{
+    color: rgb(219, 175, 121);
+}
+
+
+
+p {
+    color: #000;
+    line-height: 24px;
+}
+
+.formulario  {
+
+    color: #000;
+    background-color: rgb(85, 229, 248);
+    padding: 15px;
+}
+
+   
+
+
+
+    
